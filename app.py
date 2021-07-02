@@ -19,7 +19,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
 # set default button sytle and size, will be overwritten by macro parameters
 app.config['BOOTSTRAP_BTN_STYLE'] = 'primary'
 app.config['BOOTSTRAP_BTN_SIZE'] = 'sm'
-# app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'lumen'  # uncomment this line to test bootswatch theme
+app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'slate'  # uncomment this line to test bootswatch theme
 
 # set default icon title of table actions
 app.config['BOOTSTRAP_TABLE_VIEW_TITLE'] = 'Read'

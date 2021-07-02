@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Bootstrap-Flask Demo Application</h1>
-<ul>
-    <li><a href="{{ url_for('test_form') }}">Form</a></li>
-    <li><a href="{{ url_for('test_nav') }}">Nav</a></li>
-    <li><a href="{{ url_for('test_pagination') }}">Pagination</a></li>
-    <li><a href="{{ url_for('test_flash') }}">Flash Messages</a></li>
-    <li><a href="{{ url_for('test_table') }}">Table</a></li>
-    <li><a href="{{ url_for('test_icon') }}">Icon</a></li>
-</ul>
+<div class="jumbotron">
+    <h1 class="display-4">Hello, Shitcoin!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+  <p>
+      <code>$ whoami</code>
+      <h1>Roadmap for 2021</h1>
 {% endblock %}
